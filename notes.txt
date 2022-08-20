@@ -1,0 +1,57 @@
+Another very common Selector is the ID Selector.
+
+An ID can serve, almost as a primary key to an element or section in html, that makes it accessible,
+any time we want to style that thing in CSS.
+
+
+So, among many h1(s), or buttons, we can single out one h1 or button, to style differently from their
+counterparts, deploying the power or, advantage of IDs.
+
+
+Generally, ID names should not have spaces.
+
+
+
+So for example:
+
+To style a Sign Up button, where the html is shown below:
+
+
+<button> Sign Up </button>
+
+
+We have to include an ID, more less as a hook, or means of access for CSS to interact with the said html element.
+
+Now, so we add an id; we keep the name of the id simple and short, informative and without in-between spaces, i.e.
+
+<button id="signup"> Sign Up </button>
+
+
+Then, over in our CSS, we use this exact syntax:
+
+#id {
+    property: value;
+}
+
+Therefore, for our case, we have:
+
+#signup {
+    color: orange;
+    height: 200px;
+}
+
+Remember: or Note: there should be no space between the hash sign (#) and the id, when styling in CSS.
+
+
+NOT: 
+# signup {
+    color: orange;
+    height: 200px;
+}
+
+
+BUT:
+#signup {
+    color: orange;
+    height: 200px;
+}
